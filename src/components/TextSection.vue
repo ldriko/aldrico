@@ -10,6 +10,10 @@ const props = defineProps({
     type: String,
     default: null
   },
+  imageSrcSet: {
+    type: String,
+    default: null
+  },
   imageAlternative: {
     type: String,
     default: null
@@ -17,6 +21,14 @@ const props = defineProps({
   imageClass: {
     type: String,
     default: 'left'
+  },
+  imageWidth: {
+    type: Number,
+    default: null
+  },
+  imageHeight: {
+    type: Number,
+    default: null
   },
   title: {
     type: String,
@@ -31,11 +43,14 @@ const props = defineProps({
 
 <template>
   <section :class="`${imagePath ? 'with-image' : null} mb-5`">
-    <img
-        v-if="imagePath"
-        :src="imagePath"
-        :alt="imageAlternative ?? imagePath"
-        :class="`${imageClass} object-cover w-44 h-64 ml-5`"
+    <img v-if="imagePath"
+         :src="imagePath"
+         :srcSet="imageSrcSet"
+         :alt="imageAlternative ?? imagePath"
+         :class="imageClass"
+         :width="imageWidth"
+         :height="imageHeight"
+         fetchpriority="high"
     />
     <h1 :class="`${titleClass} mb-3`">{{ title }}</h1>
     <slot/>
@@ -47,5 +62,14 @@ section.with-image::after {
   content: '';
   display: table;
   clear: both;
+}
+
+@media screen and (max-width: 380px) {
+  img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 </style>

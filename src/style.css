@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    box-sizing: content-box;
+}
+
 body {
     font-family: 'Times New Roman', serif;
     font-size: 1.1rem;
@@ -9,14 +13,18 @@ body {
 }
 
 main {
-    max-width: 750px;
-    padding: 7vw 4vw;
+    max-width: 600px;
+    padding: 5vw;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 a {
     color: #0a0aff;
+}
+
+li:not(:last-child) {
+    margin-bottom: 3px;
 }
