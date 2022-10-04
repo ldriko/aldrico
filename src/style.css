@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
 
 * {
     box-sizing: content-box;
@@ -15,16 +15,48 @@ body {
 main {
     max-width: 600px;
     padding: 5vw;
+    margin: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Helvetica Neue', sans-serif;
+    font-weight: inherit;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-top: 1.6em;
+    margin-bottom: 0;
 }
 
 a {
     color: #0a0aff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 20px;
 }
 
 li:not(:last-child) {
     margin-bottom: 3px;
+}
+
+img.portrait {
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    width: 176px;
+    float: right;
+}
+
+@media screen and (max-width: 400px) {
+    img.portrait {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
