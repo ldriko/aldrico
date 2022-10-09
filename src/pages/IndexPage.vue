@@ -1,9 +1,3 @@
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>
-
 <script setup>
 import AboutSection from './AboutSection.vue'
 import MusicSection from './MusicSection.vue'
