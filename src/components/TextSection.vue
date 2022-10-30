@@ -1,11 +1,5 @@
-<script>
-export default {
-  name: 'TextSection'
-}
-</script>
-
 <script setup>
-const props = defineProps({
+defineProps({
   title: {
     type: String,
     default: null
@@ -13,7 +7,7 @@ const props = defineProps({
   subtitle: {
     type: String,
     default: null
-  },
+  }
 })
 </script>
 
@@ -24,6 +18,3 @@ const props = defineProps({
     <slot/>
   </div>
 </template>
-
-<style scoped>
-</style>
