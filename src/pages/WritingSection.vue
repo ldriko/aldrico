@@ -5,7 +5,14 @@ import TextSection from '../components/TextSection.vue'
 <template>
   <text-section subtitle="Writing">
     <ul>
-      <li>Soon</li>
+      <li>
+        <a
+          href="https://raw.githubusercontent.com/ldriko/writing/main/stories/arthur.md"
+        >
+          Arthur
+        </a>
+        - 📝
+      </li>
     </ul>
   </text-section>
 </template>
