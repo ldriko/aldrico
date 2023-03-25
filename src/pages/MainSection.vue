@@ -8,14 +8,14 @@ import TextSection from '../components/TextSection.vue'
     <p>
       Hi&comma; I&rsquo;m Heaven. Loves to code with various languages, learn
       new technologies and implement them in my daily use as long as they are
-      necessary. Been a gamer my whole life and won’t be retiring anytime soon.
+      necessary. Been a gamer my whole life and won&rsquo;t be retiring anytime soon.
     </p>
     <p>
       I also try a new habit of expressing my thoughts about anything through my
       writing.
     </p>
     <p>
-      Currently studying Informatics Engineering at
+      CS Student at
       <a href="https://www.upnjatim.ac.id/" target="_blank"
         >UPN &ldquo;Veteran&rdquo; Jawa Timur</a
       >.
