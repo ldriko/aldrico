@@ -5,7 +5,7 @@ import TextSection from '../components/TextSection.vue'
 <template>
   <text-section subtitle="Social">
     <ul>
-      <li><a href="https://twitter.com/ldriko" target="_blank">Twitter</a></li>
+      <li><a href="https://twitter.com/ldriko" target="_blank">Twitter</a> (Animal Video Dumpster)</li>
       <li><a href="https://github.com/ldriko" target="_blank">GitHub</a></li>
       <li><a href="https://www.linkedin.com/in/heaven-aldrico-28489620a" target="_blank">LinkedIn</a></li>
       <li><a href="https://stackoverflow.com/users/11387759/heaven-aldrico" target="_blank">StackOverflow</a></li>
