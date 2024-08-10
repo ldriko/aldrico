@@ -1,10 +1,17 @@
+<script lang="ts" setup>
+useHead({
+    titleTemplate: (value) =>
+        value ? `${value} - Heaven Aldrico` : "Heaven Aldrico",
+});
+</script>
+
 <template>
     <NuxtPage />
 </template>
 
 <style>
 :root {
-    @apply font-sans;
+    @apply font-serif;
 }
 
 a {
