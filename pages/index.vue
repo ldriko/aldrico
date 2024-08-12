@@ -62,14 +62,28 @@ const experience = yearNow - 2018;
                     <li>
                         Algorithms (<a
                             href="https://github.com/ldriko/algorithms"
+                            target="_blank"
                             >GitHub</a
                         >)
                     </li>
                     <li>
                         Conway's Game of Life (<a
                             href="https://github.com/ldriko/conway-game-of-life"
+                            target="_blank"
                             >GitHub</a
                         >)
+                    </li>
+                </DottedUl>
+            </Section>
+            <Section>
+                <SectionTitle>Bookmarks</SectionTitle>
+                <DottedUl>
+                    <li>
+                        An argument for logging off (<a
+                            href="https://aaronfrancis.com/2024/an-argument-for-logging-off-9a4de45b"
+                            target="_blank"
+                            >Article</a
+                        >) &starf;
                     </li>
                 </DottedUl>
             </Section>
