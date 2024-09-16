@@ -19,7 +19,7 @@ const experience = yearNow - 2018;
                 </p>
                 <p>
                     I code professionally and work on some side projects in my
-                    spare time.
+                    spare time. Currently building portallombaid.
                 </p>
             </Section>
             <Section>
