@@ -57,7 +57,7 @@ const experience = yearNow - 2018;
                 </DottedUl>
             </Section>
             <Section>
-                <SectionTitle>Experience</SectionTitle>
+                <SectionTitle>Experiments</SectionTitle>
                 <DottedUl>
                     <li>
                         Algorithms (<a
