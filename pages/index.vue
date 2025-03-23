@@ -19,7 +19,8 @@ const experience = yearNow - 2018;
                 </p>
                 <p>
                     I code professionally and work on some side projects in my
-                    spare time. Currently building portallombaid.
+                    spare time. Currently building
+                    <a href="https://github.com/refaire-id">Refaire.id</a>.
                 </p>
             </Section>
             <Section>
